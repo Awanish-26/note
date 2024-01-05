@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'compressor',
+    'note'
 ]
 
 MIDDLEWARE = [
@@ -71,7 +72,7 @@ DATABASES = {
     }
 }
 
-DATABASES = {}
+# DATABASES = {}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
